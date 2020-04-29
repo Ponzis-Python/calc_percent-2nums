@@ -11,5 +11,5 @@ print(daResult)
 print("Calculates a percentage of a number using the previous result as the percent value")
 daMainNumba = float(input("Enter the main number: "))
 daVar = (daResult * daMainNumba) / 100
-daAnswer = round(daVar, 4)
+daAnswer = round(daVar, 2)
 print(daAnswer)
